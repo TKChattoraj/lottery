@@ -4,8 +4,15 @@
   "description": "a sample lottery ethereum contract",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Tarun",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.2.5",
+    "mocha": "^5.2.0",
+    "solc": "^0.4.17",
+    "truffle-hdwallet-provider": "^1.0.2",
+    "web3": "^1.0.0-beta.26"
+  }
 }
